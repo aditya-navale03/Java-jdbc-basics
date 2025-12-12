@@ -31,12 +31,12 @@ class jdbc1 {
 		//insert records to studentdata table
 		//update data from studentdata 
 		int ans3 = st.executeUpdate("update  studentdata set name = 'Nikhil' where name= 'Bob' ");
-		System.out.println("updated successfully !");
+		System.out.println(ans3  +"updated successfully !");
 		
 		//to delete data from studentdata file
 		
 		int ans2 = st.executeUpdate("delete from studentdata where id=4");
-		System.out.println("deleted data successfull !");
+		System.out.println(ans2 + "deleted data successfull !");
 		
 		// int ans = st.executeUpdate("insert into studentdata values(5
 		// System.out.println(ans + "student data inserted !");

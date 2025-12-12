@@ -30,10 +30,11 @@ class jdbc2 {
         ResultSet rs = st.executeQuery("select * from studentdata");
         while(rs.next()) {
             int  id = rs.getInt("id");
+            System.out.println(id);
 
         }
 
-        
+
             con.close();
     }
 }
